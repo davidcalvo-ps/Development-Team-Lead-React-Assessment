@@ -1,0 +1,25 @@
+.sidebar {
+  border-left: 1px solid #e6e6e6;
+  background: #fff;
+  padding: 16px;
+  border-radius: 16px;
+  position: sticky;
+  top: 16px;
+  height: fit-content;
+  min-width: 280px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.section {
+  padding: 12px 0;
+  border-top: 1px solid #f0f0f0;
+  display: grid;
+  gap: 6px;
+}
